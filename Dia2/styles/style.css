@@ -1,11 +1,58 @@
 body {
-    background-color: blueviolet;
-    color: aquamarine;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
-button {
-    background-color: brown;
+.main {
+  display: flex;
+  border: 2px solid black;
+  width: 800px;
+  height: auto;
+  margin: 20px auto;
 }
 
+.columIzquierda {
+  width: 25%;
+  border-right: 2px solid black;
+  padding: 10px;
+}
 
+.columCentral {
+  width: 35%;
+  border-right: 2px solid black;
+  padding: 10px;
+}
+
+.columDerecha {
+  width: 40%;
+  padding: 10px;
+}
+
+.foto {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.info {
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.rectangulos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+h3 {
+  margin-bottom: 5px;
+}
+
+p {
+  margin: 2px 0;
+}
