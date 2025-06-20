@@ -1,0 +1,17 @@
+body {
+  font-family: "Times New Roman", serif;
+  font-size: 12px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label,
+input,
+select,
+textarea,
+button {
+  margin-bottom: 10px;
+}
