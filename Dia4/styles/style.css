@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.main-header {
+  background: url('https://images.unsplash.com/photo-1606672021160-13d8d4f8038f?auto=format&fit=crop&w=1650&q=80') no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  position: relative;
+}
+
+.login-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #ffffff;
+  color: #000000;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.header-content {
+  max-width: 700px;
+}
+
+.logo {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.header-content h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.header-content p {
+  font-size: 1.1em;
+  margin-bottom: 25px;
+}
+
+.cta-button {
+  background: #ffffff;
+  color: #000000;
+  padding: 15px 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.live-section {
+  background-color: #00aef0;
+  text-align: center;
+  padding: 40px 20px;
+  color: #ffffff;
+}
+
+.live-section .icon {
+  font-size: 3em;
+  margin: 20px 0;
+}
+
+.vod-section {
+  background-color: #00aef0;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.vod-section h2 {
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.vod-section .movies {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.vod-section .movies img {
+  height: 180px;
+  width: auto;
+  border-radius: 5px;
+}
+
+.cancel-section {
+  background-color: #00aef0;
+  text-align: center;
+  padding: 40px
