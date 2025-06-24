@@ -7,22 +7,25 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #000000;
-  color: #ffffff;
+  color: white;
 }
 
-.main-header {
-  background: url('https://images.unsplash.com/photo-1606672021160-13d8d4f8038f?auto=format&fit=crop&w=1650&q=80') no-repeat center center/cover;
+.hero-section {
+  background-image: url('https://i.imgur.com/xT8UeYK.jpeg'); /* Simula el collage */
+  background-size: cover;
+  background-position: center;
   height: 100vh;
   position: relative;
 }
 
 .overlay {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
   height: 100%;
+  padding: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 40px;
   position: relative;
 }
 
@@ -30,83 +33,136 @@ body {
   position: absolute;
   top: 20px;
   right: 20px;
-  background: #ffffff;
-  color: #000000;
-  padding: 10px 20px;
-  border-radius: 25px;
+  background-color: white;
+  color: black;
+  padding: 8px 20px;
+  border-radius: 20px;
   border: none;
   font-weight: bold;
   cursor: pointer;
 }
 
-.header-content {
+.hero-content {
   max-width: 700px;
 }
 
-.logo {
-  width: 200px;
+.logo-text h2 {
+  font-size: 1.6em;
   margin-bottom: 20px;
 }
 
-.header-content h1 {
+.prime {
+  color: #00aef0;
+}
+
+.hero-content h1 {
   font-size: 2.5em;
-  font-weight: bold;
   margin-bottom: 15px;
 }
 
-.header-content p {
-  font-size: 1.1em;
-  margin-bottom: 25px;
-}
-
-.cta-button {
-  background: #ffffff;
-  color: #000000;
-  padding: 15px 30px;
-  border-radius: 25px;
-  text-decoration: none;
-  font-weight: bold;
+.hero-content p {
   font-size: 1em;
+  margin-bottom: 25px;
+  line-height: 1.5;
 }
 
-.live-section {
+.cta {
+  background-color: white;
+  color: black;
+  padding: 14px 25px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.live-section,
+.vod-section,
+.cancel-section {
   background-color: #00aef0;
   text-align: center;
-  padding: 40px 20px;
-  color: #ffffff;
+  padding: 50px 20px;
 }
 
-.live-section .icon {
+.live-section h2,
+.vod-section h2,
+.cancel-section h2 {
+  margin-bottom: 20px;
+  font-size: 1.8em;
+}
+
+.tv-icon,
+.cancel-icon {
   font-size: 3em;
   margin: 20px 0;
 }
 
-.vod-section {
-  background-color: #00aef0;
-  text-align: center;
-  padding: 40px 20px;
-}
-
-.vod-section h2 {
-  color: #ffffff;
-  margin-bottom: 30px;
-}
-
-.vod-section .movies {
+.vod-section .movie-list {
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 10px;
   flex-wrap: wrap;
   margin-bottom: 20px;
 }
 
-.vod-section .movies img {
+.vod-section img {
+  width: 120px;
   height: 180px;
-  width: auto;
+  object-fit: cover;
   border-radius: 5px;
 }
 
-.cancel-section {
-  background-color: #00aef0;
+.vod-section p,
+.cancel-section p,
+.live-section p {
+  font-size: 1em;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.devices-section {
+  background-color: #000000;
   text-align: center;
-  padding: 40px
+  padding: 60px 20px;
+}
+
+.devices-section h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.devices-section p {
+  color: #ccc;
+  margin-bottom: 30px;
+}
+
+.devices {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.device {
+  font-size: 1.2em;
+  color: white;
+  opacity: 0.5;
+}
+
+.device.active {
+  font-size: 1.6em;
+  font-weight: bold;
+  opacity: 1;
+}
+
+.footer {
+  background-color: #000000;
+  text-align: center;
+  padding: 25px 10px;
+  font-size: 0.9em;
+}
+
+.footer a {
+  color: #ccc;
+  margin: 0 10px;
+  text-decoration: none;
+}
