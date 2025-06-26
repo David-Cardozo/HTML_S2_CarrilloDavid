@@ -7,7 +7,7 @@ body {
 
 @font-face {
     font-family: 'MiFuentePersonalizada'; 
-    src: url('./src/fonts/AmazonEmber_Lt') format('truetype'); 
+    src: url('./fonts/AmazonEmber_Lt') format('truetype'); 
     font-weight: normal; 
     font-style: normal; 
 }
@@ -23,8 +23,6 @@ header {
     align-items: center;
     width: 96%;
     z-index: 2;
-
-    
 }
 
 a {
@@ -32,7 +30,7 @@ a {
     color: black;
 }
 
-#fondo1 {
+#fondoPrincipal {
     width: 100%;
     height: 100%; 
     object-fit: cover; 
@@ -41,7 +39,7 @@ a {
     z-index: 1;
 }
 
-#prime {
+#logoPrime {
     position: absolute;
     display: flex;
     z-index: 2;
@@ -51,20 +49,18 @@ a {
     width: 30%;
 }
 
-#login {
-    
+#botonLogin {
     padding: 2%;
     display: flex;
     align-items: center;
     justify-content: center;
-    width:10rem;
+    width: 10rem;
     height: 2rem;
     border-radius: 35px;
     background-color: rgb(255, 255, 255);
-    
 }
 
-#text1 {
+#tituloPrincipal {
     position: absolute;
     display: flex;
     z-index: 2;
@@ -78,8 +74,7 @@ a {
     text-align: center;
 }
 
-
-#text2 {
+#descripcionPrincipal {
     position: absolute;
     display: flex;
     z-index: 2;
@@ -92,7 +87,7 @@ a {
     font-size: 20px;
 }
 
-#sing-up {
+#botonRegistro {
     position: absolute;
     display: flex;
     align-items: center;
@@ -103,15 +98,14 @@ a {
     left: 50%;
     color: rgb(0, 0, 0);
     text-align: center;
-    font-size: 15px;
-    width:19rem;
+    font-size: 27px;
+    width: 19rem;
     height: 4rem;
     border-radius: 35px;
     background-color: rgb(255, 255, 255);
-    font-size: 27px;
 }
 
-.blue-divs {
+.seccionAzul {
     background-color: #00A8E1;
     color: white;
     display: flex; 
@@ -126,34 +120,30 @@ a {
     height: auto;
     padding-top: 2%;
     padding-bottom: 2%;
-
 }
 
-#tv {
+#imagenTv {
     width: 11rem; 
     height: auto; 
 }
 
-#live {
-    
+#tituloEnVivo {
     font-size: 45px; 
     text-align: center; 
-    
 }
 
-#p1 {
+#descripcionEnVivo {
     width: 70%;
     text-align: center;
     font-size: 30px;
-    
 }
 
-#like {
+#tituloPeliculas {
     font-size: 40px; 
     text-align: center;
 }
 
-#movies {
+#galeriaPeliculas {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -163,46 +153,38 @@ a {
     padding: 20px;
 }
 
-#movies img {
+#galeriaPeliculas img {
     width: 8rem;
 }
 
-#movies img:hover {
-    transform: scale(1.15);
-    transition: transform 0.3s ease;
-    border-radius: 10px;
-}
-
-#p2 {
+#descripcionPeliculas {
     width: 80%;
     text-align: center;
     font-size: 32px;
-    
 }
 
-#cancel {
+#tituloCancelar {
     font-size: 40px; 
 }
 
-#cancelar {
+#iconoCancelar {
     width: 7%;
 }
 
-#p3 {
+#descripcionCancelar {
     width: 80%;
     text-align: center;
     font-size: 32px;
-    
 }
 
-#compatibles{
+#tituloCompatibles {
     display: flex;
     justify-content: center;
     color: white;
     font-size: 70px;
 }
 
-#p4{
+#descripcionCompatibles {
     display: flex;
     justify-content: center;
     color: white;
@@ -210,20 +192,20 @@ a {
     text-align: center;
 }
 
-#devices {
+#contenedorDispositivos {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-footer{
+footer {
     align-items: center;
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-footer p{
+footer p {
     text-decoration: none;
     color: rgb(171, 169, 169);
 }
