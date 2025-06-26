@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to bottom, #eeeeee, #aaaaaa);
+  font-family: Arial, sans-serif;
+}
+
+.contenedor {
+  position: relative;
+  padding: 20px;
+}
+
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.logoRectangulo {
+  width: 120px;
+  height: 40px;
+  background-color: #ccc;
+}
+
+.barraNavegacion {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.opcionNavegacion {
+  width: 100px;
+  height: 20px;
+  background-color: #ccc;
+}
+
+.campoBuscar {
+  width: 80px;
+  height: 20px;
+  background-color: #ccc;
+}
+
+.iconoCarrito {
+  width: 24px;
+  height: 24px;
+  background-color: #ccc;
+}
+
+.contenidoPrincipal {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.seccionTarjeta {
+  display: flex;
+  gap: 30px;
+}
+
+.tarjetaImagen {
+  width: 300px;
+  height: 180px;
+  background-color: #ccc;
+}
+
+.tarjetaInformacion {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+.tarjetaTitulo {
+  width: 250px;
+  height: 20px;
+  background-color: #ccc;
+}
+
+.tarjetaPrecio {
+  width: 100px;
+  height: 16px;
+  background-color: #ccc;
+}
+
+.botonComprar {
+  width: 120px;
+  height: 40px;
+  background-color: #ccff66;
+  border-radius: 5px;
+}
+
+.barraLateral {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 100vh;
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.tituloCantidad {
+  width: 10px;
+  height: 100px;
+  background-color: #888;
+  margin-bottom: 30px;
+}
+
+.itemCantidad {
+  width: 30px;
+  height: 20px;
